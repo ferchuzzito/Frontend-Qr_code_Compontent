@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen bg-LightGray flex flex-col items-center justify-center font-Outfit;
+}
+
+.qrcard {
+  @apply text-center m-4 p-4 rounded-2xl bg-White max-w-[296px];
+}
+
+.qrlogo {
+  @apply rounded-lg
+}
+
+.title {
+  @apply my-4 text-title text-DarkBlue
+}
+
+.paragraph {
+  @apply text-GrayishBlue text-paragraph
+}
+
+.attribution {
+  @apply text-xs text-center;
+}
+.attribution a {
+  @apply text-blue;
+}
